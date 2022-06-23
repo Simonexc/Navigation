@@ -1,3 +1,5 @@
+# This implementation of Prioritized Experience Replay was inspired by: https://github.com/rlcode/per
+
 from dqn_agent import BATCH_SIZE, Agent, BUFFER_SIZE, GAMMA, UPDATE_EVERY, TAU, device
 from SumTree import SumTree
 import random
